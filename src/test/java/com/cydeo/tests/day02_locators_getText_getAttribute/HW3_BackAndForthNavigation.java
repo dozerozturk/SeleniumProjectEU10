@@ -46,7 +46,7 @@ public class HW3_BackAndForthNavigation {
         if (actualGoogleTitle.equals(expectedGoogleTitle)){
             System.out.println("Google Home Page Title Verification PASSED!");
         }else {
-            System.err.println("Google Home Page Title Verification FAILED!!!");
+            System.out.println("Google Home Page Title Verification FAILED!!!");
         }
 
 

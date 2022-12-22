@@ -32,7 +32,7 @@ public class HW1_EtsyTitleVerification {
         if (actualWoodenSpoonTitle.equals(expectedWoodenSpoonTitle)){
             System.out.println("Title Verification PASSED!");
         }else {
-            System.err.println("Title Verification FAILED!!!");
+            System.out.println("Title Verification FAILED!!!");
         }
 
 

@@ -51,7 +51,7 @@ public class HW5_FacebookTitleVerification {
         if (actualIncorrectInfoTitle.equals(expectedIncorrectInfoTitle)) {
             System.out.println("Incorrect Info Warning Page Title Verification PASSED!");
         }else {
-            System.err.println("Incorrect Info Warning Page Title Verification FAILED!!!");
+            System.out.println("Incorrect Info Warning Page Title Verification FAILED!!!");
         }
 
 

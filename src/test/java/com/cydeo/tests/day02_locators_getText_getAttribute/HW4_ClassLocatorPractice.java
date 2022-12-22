@@ -32,7 +32,7 @@ public class HW4_ClassLocatorPractice {
         if (actualHomePageTitle.equals(expectedHomePageTitle)){
             System.out.println("Home Page Title Verification PASSED!");
         }else {
-            System.err.println("Home Page Title Verification FAILED!!!");
+            System.out.println("Home Page Title Verification FAILED!!!");
         }
 
 

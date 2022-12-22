@@ -26,7 +26,7 @@ public class HW2_ZeroBankHeaderVerification {
         if (actualLogInHeaderText.equals(expectedLogInHeaderText)){
             System.out.println("HeaderText Verification PASSED!");
         }else {
-            System.err.println("HeaderText Verification FAILED!!!");
+            System.out.println("HeaderText Verification FAILED!!!");
         }
 
     }
