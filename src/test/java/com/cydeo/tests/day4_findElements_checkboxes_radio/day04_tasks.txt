@@ -1,0 +1,65 @@
+XPATH and CSS Selector PRACTICES
+DO NOT USE ANY DEVELOPER TOOLS TO GET ANY LOCATORS.
+TC #1: XPATH and cssSelector Practices
+1. Open Chrome browser
+2. Go to https://practice.cydeo.com/forgot_password
+3. Locate all the WebElements on the page using XPATH and/or CSS
+locator only (total of 6)
+a. “Home” link
+b. “Forgot password” header
+c. “E-mail” text
+d. E-mail input box
+e. “Retrieve password” button
+f. “Powered by Cydeo text
+4. Verify all web elements are displayed.
+First solve the task with using cssSelector only. Try to create 2 different
+cssSelector if possible
+
+Then solve the task using XPATH only. Try to create 2 different
+XPATH locator if possible
+
+
+XPATH Practice
+DO NOT USE ANY DEVELOPER TOOLS TO GET ANY LOCATORS.
+TC #6:  XPATH LOCATOR practice
+1. Open Chrome browser
+2. Go to http://practice.cydeo.com/multiple_buttons
+3. Click on Button 1
+4. Verify text displayed is as expected:
+Expected: “Clicked on button one!”
+
+USE XPATH LOCATOR FOR ALL WEBELEMENT LOCATORS
+
+
+
+ TC #4: FindElements Task
+1- Open a chrome browser
+2- Go to: https://practice.cydeo.com/abtest
+3- Locate all the links in the page.
+4- Print out the number of the links on the page.
+5- Print out the texts of the links.
+6- Print out the HREF attribute values of the links
+
+
+TX#5 Practice: Checkboxes
+1. Go to http://practice.cydeo.com/checkboxes
+2. Confirm checkbox #1 is NOT selected by default
+3. Confirm checkbox #2 is SELECTED by default.
+4. Click checkbox #1 to select it.
+5. Click checkbox #2 to deselect it.
+6. Confirm checkbox #1 is SELECTED.
+7. Confirm checkbox #2 is NOT selected.
+
+
+TC #6: StaleElementReferenceException Task
+1- Open a chrome browser
+2- Go to: https://practice.cydeo.com/abtest
+3- Locate “CYDEO” link, verify it is displayed.
+4- Refresh the page.
+5- Verify it is displayed, again.
+
+
+
+This is a simple StaleElementReferenceException to understand what is
+this exception and how to handle it.
+

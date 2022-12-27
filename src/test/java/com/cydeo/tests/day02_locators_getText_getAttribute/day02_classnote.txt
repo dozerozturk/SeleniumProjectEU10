@@ -48,10 +48,10 @@ TODAY'S SCHEDULE:
 
 
 - What version of Selenium we are using?
-    - 3.141.59
+    - 3.141.59 // I use 4.7.2
 
 - What version of WebDriverManager we are using?
-    - 5.0.3
+    - 5.0.3 // I use 5.3.1
 
 - If the developers are using both main and test folders, which folder the testers use?
     - Testers and developers are not working on the same project.

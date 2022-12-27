@@ -1,0 +1,75 @@
+TC #1: NextBaseCRM, locators and getText() practice
+1- Open a chrome browser
+2- Go to: https://login1.nextbasecrm.com/
+3- Enter incorrect username: “incorrect”
+4- Enter incorrect password: “incorrect”
+5- Click to login button.
+6- Verify error message text is as expected:
+Expected: Incorrect login or password
+
+
+
+
+PS: Inspect and decide which locator you should be using to locate web
+elements.
+
+
+TC #2: NextBaseCRM, locators, getText(), getAttribute() practice
+1- Open a chrome browser
+2- Go to: https://login1.nextbasecrm.com/
+3- Verify “remember me” label text is as expected:
+Expected: Remember me on this computer
+4- Verify “forgot password” link text is as expected:
+Expected: Forgot your password?
+5- Verify “forgot password” href attribute’s value contains expected:
+Expected: forgot_password=yes
+
+
+
+PS: Inspect and decide which locator you should be using to locate web
+elements.
+
+
+C #3: NextBaseCRM, locators, getText(), getAttribute() practice
+1- Open a chrome browser
+2- Go to: https://login1.nextbasecrm.com/
+3- Verify “Log in” button text is as expected:
+Expected: Log In
+
+
+
+PS: Inspect and decide which locator you should be using to locate web
+elements.
+PS2: Pay attention to where to get the text of this button from
+
+
+TC #4: NextBaseCRM, locators, getText(), getAttribute() practice
+1- Open a chrome browser
+2- Go to: https://login1.nextbasecrm.com/?forgot_password=yes
+3- Verify “Reset password” button text is as expected:
+Expected: Reset password
+
+
+
+PS: Inspect and decide which locator you should be using to locate web
+elements.
+PS2: Pay attention to where to get the text of this button from
+
+
+TC #5: NextBaseCRM, locators, getText(), getAttribute() practice
+1- Open a chrome browser
+2- Go to: https://login1.nextbasecrm.com/?forgot_password=yes
+3- Enter incorrect username into login box:
+4- Click to `Reset password` button
+5- Verify “error” label is as expected
+Expected: Login or E-mail not found
+
+
+
+
+PS: Inspect and decide which locator you should be using to locate web
+elements.
+PS2: Pay attention to where to get the text of this button from
+
+
+
