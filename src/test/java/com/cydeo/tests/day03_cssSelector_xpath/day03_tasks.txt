@@ -7,9 +7,6 @@ TC #1: NextBaseCRM, locators and getText() practice
 6- Verify error message text is as expected:
 Expected: Incorrect login or password
 
-
-
-
 PS: Inspect and decide which locator you should be using to locate web
 elements.
 
@@ -30,7 +27,7 @@ PS: Inspect and decide which locator you should be using to locate web
 elements.
 
 
-C #3: NextBaseCRM, locators, getText(), getAttribute() practice
+TC #3: NextBaseCRM, locators, getText(), getAttribute() practice
 1- Open a chrome browser
 2- Go to: https://login1.nextbasecrm.com/
 3- Verify “Log in” button text is as expected:
