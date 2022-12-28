@@ -290,9 +290,9 @@ ex: <a href="https://tesla.com" name="uh68" class="ff58" id="bb22"> TESLA CYBERT
 
 - locate above <a> tag using relative xpath locator with different attributes.
 
-    - using name attribute         : //a[@name='uh68']
+    - using name attribute      : //a[@name='uh68']
     - using class attribute     : //a[@class='ff58']
-    - using id attribute         : //a[@id='bb22']
+    - using id attribute        : //a[@id='bb22']
 
 
 COMMONLY USED XPATH SYNTAXES:

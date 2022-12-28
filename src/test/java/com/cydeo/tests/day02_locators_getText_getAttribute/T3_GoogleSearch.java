@@ -31,7 +31,7 @@ public class T3_GoogleSearch {
         String expectedInTitle = "apple";
         String actualTitle = driver.getTitle();
 
-        if (actualTitle.startsWith(expectedInTitle)){
+        if (actualTitle.startsWith(expectedInTitle)) {
             System.out.println("Title verification PASSED!");
         }else{
             System.out.println("Title verification FAILED!!!");
