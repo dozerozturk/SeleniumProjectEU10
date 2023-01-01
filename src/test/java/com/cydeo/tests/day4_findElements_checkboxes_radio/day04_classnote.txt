@@ -57,7 +57,7 @@ ex#2_syntax#1: write css selector that is locating the "div" tag "for" attribute
     div[name='kgl33']
     div[id='55k']
 
-- all of the above locators are locating the same web element, <div>.
+ - all of the above locators are locating the same web element, <div>.
 
 ex#3_syntax#2:write css selector that is locating the "div" tag "id" attribute
 
