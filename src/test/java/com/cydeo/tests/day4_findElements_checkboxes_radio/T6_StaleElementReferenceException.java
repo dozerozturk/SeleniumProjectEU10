@@ -12,6 +12,9 @@ public class T6_StaleElementReferenceException {
         //5- Verify it is displayed, again.
 
 
+
+
+
     }
 }
 
