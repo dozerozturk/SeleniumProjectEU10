@@ -37,6 +37,8 @@ public class T1_StaleElementRefEx {
 
 
 
+
+
         //5. Click to “Delete” button.
         deleteButton.click();
 
