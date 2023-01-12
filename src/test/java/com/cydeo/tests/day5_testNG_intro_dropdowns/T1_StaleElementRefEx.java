@@ -35,10 +35,6 @@ public class T1_StaleElementRefEx {
 
         System.out.println("deleteButton.isDisplayed() = " + deleteButton.isDisplayed());
 
-
-
-
-
         //5. Click to “Delete” button.
         deleteButton.click();
 
