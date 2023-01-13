@@ -1,0 +1,44 @@
+
+C #1: Information alert practice
+1. Open browser
+2. Go to website: http://practice.cydeo.com/javascript_alerts
+3. Click to “Click for JS Alert” button
+4. Click to OK button from the alert
+5. Verify “You successfully clicked an alert” text is displayed.
+
+TC #2: Confirmation alert practice
+1. Open browser
+2. Go to website: http://practice.cydeo.com/javascript_alerts
+3. Click to “Click for JS Confirm” button
+4. Click to OK button from the alert
+5. Verify “You clicked: Ok” text is displayed.
+
+TC #3: Information alert practice
+1. Open browser
+2. Go to website: http://practice.cydeo.com/javascript_alerts
+3. Click to “Click for JS Prompt” button
+4. Send “hello” text to alert
+5. Click to OK button from the alert
+6. Verify “You entered:  hello” text is displayed.
+
+
+TC #4: Iframe practice
+
+1. Create a new class called: T4_Iframes
+2. Create new test and make set ups
+3. Go to: https://practice.cydeo.com/iframe
+4. Assert: “Your content goes here.” Text is displayed.
+5. Assert: “An iFrame containing the TinyMCE WYSIWYG Editor”
+
+
+TC #5: Window Handle practice
+
+1. Create a new class called: T5_WindowsPractice
+2. Create new test and make set ups
+3. Go to : https://practice.cydeo.com/windows
+4. Assert: Title is “Windows”
+5. Click to: “Click Here” link
+6. Switch to new Window.
+7. Assert: Title is “New Window”
+
+

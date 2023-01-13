@@ -1,0 +1,87 @@
+
+
+TC #1: Window Handle practice
+ 1. Create new test and make set ups
+2. Go to : https://www.amazon.com
+3. Copy paste the lines from below into your class
+4. Create a logic to switch to the tab where Etsy.com is open
+5. Assert: Title contains “Etsy”
+
+Lines to be pasted:
+((JavascriptExecutor) driver).executeScript("window.open('http://google.com','_blank');");
+((JavascriptExecutor) driver).executeScript("window.open('http://etsy.com','_blank');");
+((JavascriptExecutor) driver).executeScript("window.open('http://facebook.com','_blank');");
+
+These lines will simply open new tabs using something called JavascriptExecutor
+and get those pages. We will learn JavascriptExecutor later as well.
+
+
+
+TC #2: Create utility method
+ 1. Create a new class called BrowserUtils
+2. Create a method to make Task1 logic re-usable
+3. When method is called, it should switch window and verify title.
+
+
+Method info:
+• Name: switchWindowAndVerify
+• Return type: void
+• Arg1: WebDriver
+• Arg2: String expectedInUrl
+• Arg3: String expectedTitle
+
+
+
+TC #3: Login scenario
+ 1. Create new test and make set ups
+2. Go to : http://login1.nextbasecrm.com/
+3. Enter valid username
+4. Enter valid password
+5. Click to `Log In` button
+6. Verify title is as expected:
+Expected: Portal
+
+
+USERNAME  					  PASSWORD
+helpdesk1@cybertekschool.com  UserUser
+Helpdesk2@cybertekschool.com  UserUser
+
+
+
+TC #4: Create utility method
+ 1. Create a new method for login
+2. Create a method to make Task3 logic re-usable
+3. When method is called, it should simply login
+
+This method should have at least 2 overloaded versions.
+
+Method #1 info:
+• Name: login_crm()
+• Return type: void
+• Arg1: WebDriver
+
+Method #2 info:
+• Name: login_crm()
+• Return type: void
+• Arg1: WebDriver
+• Arg2: String username
+• Arg3: String password
+
+
+
+TC #5: Create utility method
+ 1. Create a new method for title verification
+2. Create a method to make title verification logic re-usable
+3. When method is called, it should simply verify expected title with actual
+title
+
+Method info:
+• Name: verifyTitle()
+• Return type: void
+• Arg1: WebDriver
+• Arg2: String expectedTitle
+
+
+
+
+

@@ -1,0 +1,59 @@
+TC #1: Web table practice
+ 1. Go to: https://practice.cydeo.com/web-tables
+2. Verify Bob’s name is listed as expected.
+Expected: “Bob Martin”
+3. Verify Bob Martin’s order date is as expected
+Expected: 12/31/2021
+
+
+TC #2: Web table practice Task1 cont.
+ 1. Create a new class called WebTableUtils.
+2. Create two methods to verify order
+
+
+Method #1 info:
+• Name: returnOrderDate ()
+• Return type: String
+• Arg1: WebDriver driver
+• Arg2: String costumerName
+This method should accept a costumerName and return the costumer order date
+as a String.
+
+
+Method #2 info:
+• Name: orderVerify ()
+• Return type: void
+• Arg1: WebDriver driver
+• Arg2: String costumerName
+• Arg3: String expectedOrderDate
+This method should accept above mentioned arguments and internally assert
+expectedOrderDate matching actualOrderDate.
+
+
+
+ TC #3: Create a custom method
+1- Open a chrome browser
+2- Go to: https://practice.cydeo.com/tables
+3- Write custom method:
+
+• Method name: getTableGetEmail()
+• Return type: void
+• Arg1: WebDriver driver
+• Arg2: String tableNum
+• Arg3: String firstName
+
+
+TC #4: Google search
+1- Open a chrome browser
+2- Go to: https://google.com
+3- Write “apple” in search box
+4- Verify title:
+Expected: apple - Google Search
+
+
+Use `configuration.properties` for the following:
+1. The browser type
+2. The URL
+3. The search keyword
+4. Make title verification dynamic. If search value changes, title
+assertion should not fail.
