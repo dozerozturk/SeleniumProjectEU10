@@ -35,10 +35,10 @@ Today's schedule:
 - What is the syntax with the indexing in xpath?
 - How do we use indexes with xpath?
     - //tagName[@attribute='value'][3]
-    - If we use indexes without paranthesis, this way will only work in direct siblings.
+    - If we use indexes without parentheses, this way will only work in direct siblings.
 
     - (//tagName[@attribute='value'])[3]
-    - If we use indexes with paranthesis, this way it will work and index through the whole html page.
+    - If we use indexes with parentheses, this way it will work and index through the whole html page.
 
 
 ------------------------------------------------------------------------------------
