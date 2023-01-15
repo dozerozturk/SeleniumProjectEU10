@@ -16,7 +16,6 @@ public class T5_DropDownSelect {
 
     @BeforeMethod
     public void setup(){
-        //TC #5: Selecting state from State dropdown and verifying result
         //1. Open Chrome browser
         //2. Go to http://practice.cybertekschool.com/dropdown
 

@@ -30,8 +30,14 @@ public class T6_selectDateDropDown {
 
     //3. Select “December 1st, 1923” and verify it is selected.
     //Select year using  : visible text
-    @Test(priority = 1)
-    public void selectYear(){
+    @Test
+    public void dropdown_task6(){
+        Select yearDropdown = new Select(driver.findElement(By.xpath("//select[@id='year']")));
+        yearDropdown.selectByVisibleText("1923");
+        String expectedYear = "1923";
+        String actualYear = yearDropdown.getFirstSelectedOption().getText();
+        Assert.assertEquals(actualYear, expectedYear);
+//        Assert.assertTrue(actualYear.equals(expectedYear));
 
     }
 
@@ -59,7 +65,6 @@ public class T6_selectDateDropDown {
 
     @AfterMethod
     public void close(){
-
         driver.close();
     }
 
