@@ -223,13 +223,13 @@ NOTES: DAY 7
 
 
 - How do we go from sibling to sibling?
-- There are two methods for going from sibling to sibling
-- "/preceding-sibling::" will go to the sibling that comes before
-- "/following-sibling::" will go to the sibling that comes after
+    - There are two methods for going from sibling to sibling
+    - "/preceding-sibling::" will go to the sibling that comes before
+    - "/following-sibling::" will go to the sibling that comes after
 
-- The web element we locate will become the starting point (point 0).
-- We decide whether we want to go preceding or following sibling.
-- We count and we pass the index number.
+    - The web element we locate will become the starting point (point 0).
+    - We decide whether we want to go preceding or following sibling.
+    - We count and we pass the index number.
 
     //tagName[@attribute='value']
 
@@ -248,7 +248,6 @@ ex:    //option[@value='3']
 
 
 //option[@value='3']/preceding-sibling::option[1] --> this will point to Orange 1
-
 //option[@value='3']/following-sibling::option[2] --> this will point to Orange 5
 
 
