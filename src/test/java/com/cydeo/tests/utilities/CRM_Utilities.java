@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package com.cydeo.tests.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ public class CRM_Utilities {
 
 
     /*
-    This method will log in with helpdesk1@cybertekschool.com
+     This method will log in with helpdesk1@cybertekschool.com
      user when it is called
      */
     public static void crm_login(WebDriver driver){
