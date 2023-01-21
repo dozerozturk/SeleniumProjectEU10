@@ -74,7 +74,7 @@ Driver Utility Review:
 - We implemented Singleton Design Pattern.
 
 - What is a design pattern?
-- Repetable solution to a repeating issue.
+- Repeatable solution to a repeating issue.
 
 - Singleton Design Pattern:
 - Singleton Design Pattern makes sure we are returning the same instance every time we call our method.
