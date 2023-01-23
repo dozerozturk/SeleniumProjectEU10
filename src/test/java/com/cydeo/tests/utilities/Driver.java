@@ -71,3 +71,6 @@ public class Driver {
         }
     }
 }
+
+//letterify     faker.letterify("?????")
+//bothify       faker.bothify("###-??#?###?")
