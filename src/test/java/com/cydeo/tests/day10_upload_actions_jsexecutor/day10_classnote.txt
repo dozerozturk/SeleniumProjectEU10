@@ -10,9 +10,8 @@ Today's schedule:
 ----------------------------------------------------------------------------------------
 
 - Why do we read data from configuration.properties?
-
-#1- To eliminate hard coding important test data.
-#2- We can easily do cross browser testing.
+    #1- To eliminate hard coding important test data.
+    #2- We can easily do cross browser testing.
 
 - What is cross browser testing?
 - Running the same test against different browsers.
