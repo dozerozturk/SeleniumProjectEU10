@@ -93,6 +93,7 @@ How do we implement the Singleton Design Pattern?
         - Next time we call the same method/object, it will keep returning the same object until the sesion ends or we terminate the session ourselves.
 
 
+
 --------------------------------------------------------------------------------
 
 - How do we handle downloads using Selenium?
