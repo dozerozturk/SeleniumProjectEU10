@@ -121,6 +121,7 @@ How to handle Closing or Quitting driver with Driver utility class?
     }
 
 
+
 ----------------------------------------------------------------------
 
 js.executeScript("arguments[0].scrollIntoView(true)", cydeoLink, homeLink, someOtherLink);
