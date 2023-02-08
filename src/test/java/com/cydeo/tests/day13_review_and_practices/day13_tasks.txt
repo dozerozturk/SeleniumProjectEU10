@@ -32,6 +32,7 @@ TC #3: Explicit wait practice
 a. Input box is enabled.
 b. “It’s enabled!” message is displayed.
 
+
 NOTE: FOLLOW POM
 
 
