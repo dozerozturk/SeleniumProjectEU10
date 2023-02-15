@@ -23,6 +23,7 @@ Today's schedule:
     - It will wait for the given duration no matter what.
     - Therefore this is not a good practice to use.
 
+
 #2- implicitlyWait(10);
     - This is coming from Selenium library.
 
