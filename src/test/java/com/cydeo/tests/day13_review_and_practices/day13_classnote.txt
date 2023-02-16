@@ -298,7 +298,6 @@ WHAT IS TESTNG?
 Why do we use annotations?
     - Annotations allows us to change the behaviors of regular java methods and allows us to create certain executable flow.
 
-
 -------------------------
 
 - How do we handle DROPDOWNS?
