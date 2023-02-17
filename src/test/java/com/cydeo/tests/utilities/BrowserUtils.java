@@ -62,7 +62,7 @@ public class BrowserUtils {
 
         //5. Assert:Title contains “expectedInTitle”
         String actualTitle = driver.getTitle();
-        Assert.assertTrue(actualTitle.contains(expectedInTitle), "Actual title is not match");
+        Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
 
     /*

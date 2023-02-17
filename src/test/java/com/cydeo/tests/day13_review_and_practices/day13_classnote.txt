@@ -401,7 +401,6 @@ IFRAMES:
     - defaultContent() -> will switch back to the default <html> of the page
 
 
-
 WINDOWS/TABS:
 
 - What is the difference between a window and a tab for selenium?
