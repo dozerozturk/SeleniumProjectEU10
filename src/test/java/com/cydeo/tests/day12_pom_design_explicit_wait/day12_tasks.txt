@@ -31,6 +31,7 @@ Expected: Sorry, Wrong Email or Password
 NOTE: FOLLOW POM DESIGN PATTERN
 
 
+
 TC#4 : Dynamically Loaded Page Elements 7
 1. Go to https://practice.cydeo.com/dynamic_loading/7
 2. Wait until title is “Dynamic title”
