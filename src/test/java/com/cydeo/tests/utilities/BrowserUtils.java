@@ -27,8 +27,6 @@ public class BrowserUtils {
             • Arg3: String expectedTitle
      */
 
-
-
     /*
     This method will accept int (in seconds) and execute Thread.sleep
     for given duration
